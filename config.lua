@@ -696,6 +696,66 @@ Config.defaultMediaPlayers = {
 		}
 	}
 	]]
+	{
+		position = vector3(1416.27, 1165.69, 114.42),
+		label = "MP3 Mafia outside",
+		spawn = true,
+		model = `prop_mp3_dock`,
+		rotation = vector3(0.0, 0.0, 345.36),
+		invisible = false,
+		url = 'https://www.youtube.com/watch?v=HWqKPWO5T4o',
+		title = 'Mafia song',
+		volume = 80,
+		offset = 0,
+		loop = true,
+		filter = true,
+		locked = false,
+		video = false,
+		videoSize = 30,
+		muted = false,
+		attenuation = {
+			sameRoom = 4,
+			diffRoom = 6
+		},
+		range = 30,
+		scaleform = {
+			position = vector3(153.9, -988.7, 36.9),
+			rotation = vector3(0, 0, 20),
+			scale = vector3(0.6, 0.344, 0),
+			standalone = false,
+			attached = false
+		}
+	},
+	{
+		position = vector3(214.55, -807.654, 31.23),
+		label = "Blokkenpark",
+		spawn = true,
+		model = `prop_boombox_01`,
+		rotation = vector3(0.0, 0.0, 314.36),
+		invisible = false,
+		url = 'https://21253.live.streamtheworld.com/MNM_128.mp3',
+		title = 'MNM',
+		volume = 30,
+		offset = 0,
+		loop = true,
+		filter = true,
+		locked = false,
+		video = false,
+		videoSize = 30,
+		muted = false,
+		attenuation = {
+			sameRoom = 4,
+			diffRoom = 6
+		},
+		range = 30,
+		scaleform = {
+			position = vector3(153.9, -988.7, 36.9),
+			rotation = vector3(0, 0, 20),
+			scale = vector3(0.6, 0.344, 0),
+			standalone = false,
+			attached = false
+		}
+	}
 }
 
 -- Distance at which default media player entities spawn/despawn

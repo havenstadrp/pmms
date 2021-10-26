@@ -818,7 +818,7 @@ Config.defaultMediaPlayers = {
 	},
 	{
 		position = vector3(311.429, -593.200, 43.171),
-		label = "Pilbox hospital",
+		label = "Pillbox Hospital",
 		spawn = true,
 		model = `prop_radio_01`,
 		rotation = vector3(0.0, 0.0, 0),

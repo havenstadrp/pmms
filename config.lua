@@ -733,9 +733,9 @@ Config.defaultMediaPlayers = {
 		model = `prop_boombox_01`,
 		rotation = vector3(0.0, 0.0, 314.36),
 		invisible = false,
-		url = 'https://21253.live.streamtheworld.com/MNM_128.mp3',
+		url = 'https://23563.live.streamtheworld.com/MNM_128.mp3', --'https://21253.live.streamtheworld.com/MNM_128.mp3',
 		title = 'MNM',
-		volume = 30,
+		volume = 15,
 		offset = 0,
 		loop = true,
 		filter = true,
@@ -744,7 +744,7 @@ Config.defaultMediaPlayers = {
 		videoSize = 30,
 		muted = false,
 		attenuation = {
-			sameRoom = 4,
+			sameRoom = 5,
 			diffRoom = 6
 		},
 		range = 30,
@@ -755,6 +755,126 @@ Config.defaultMediaPlayers = {
 			standalone = false,
 			attached = false
 		}
+	},
+	{
+		position = vector3(202.0395, -913.194, 31.235),
+		label = "Blokkenpark Skatepark",
+		spawn = true,
+		model = `prop_boombox_01`,
+		rotation = vector3(0.0, 0.0, 250),
+		invisible = false,
+		url = 'https://23563.live.streamtheworld.com/MNM_128.mp3', --'https://21253.live.streamtheworld.com/MNM_128.mp3',
+		title = 'MNM',
+		volume = 30,
+		offset = 0,
+		loop = true,
+		filter = true,
+		locked = false,
+		video = false,
+		videoSize = 30,
+		muted = false,
+		attenuation = {
+			sameRoom = 5,
+			diffRoom = 6
+		},
+		range = 30,
+		scaleform = {
+			position = vector3(153.9, -988.7, 36.9),
+			rotation = vector3(0, 0, 20),
+			scale = vector3(0.6, 0.344, 0),
+			standalone = false,
+			attached = false
+		}
+	},
+	{
+		position = vector3(179, -939.441, 29.404),
+		label = "Blokkenpark Yoga",
+		spawn = false,
+		model = `prop_boombox_01`,
+		rotation = vector3(0.0, 0.0, 250),
+		invisible = false,
+		url = 'https://www.youtube.com/watch?v=q0jwDR4rbCM', 
+		title = 'Joga',
+		volume = 30,
+		offset = 0,
+		loop = true,
+		filter = true,
+		locked = false,
+		video = false,
+		videoSize = 30,
+		muted = false,
+		attenuation = {
+			sameRoom = 5,
+			diffRoom = 6
+		},
+		range = 30,
+		scaleform = {
+			position = vector3(153.9, -988.7, 36.9),
+			rotation = vector3(0, 0, 20),
+			scale = vector3(0.6, 0.344, 0),
+			standalone = false,
+			attached = false
+		}
+	},
+	{
+		position = vector3(311.429, -593.200, 43.171),
+		label = "Pilbox hospital",
+		spawn = true,
+		model = `prop_radio_01`,
+		rotation = vector3(0.0, 0.0, 0),
+		invisible = false,
+		url = 'https://23563.live.streamtheworld.com/MNM_128.mp3', 
+		title = 'MNM',
+		volume = 30,
+		offset = 0,
+		loop = true,
+		filter = true,
+		locked = false,
+		video = false,
+		videoSize = 30,
+		muted = false,
+		attenuation = {
+			sameRoom = 5,
+			diffRoom = 6
+		},
+		range = 30,
+		scaleform = {
+			position = vector3(153.9, -988.7, 36.9),
+			rotation = vector3(0, 0, 20),
+			scale = vector3(0.6, 0.344, 0),
+			standalone = false,
+			attached = false
+		} 
+	},
+	{
+		position = vector3(308.9292, 161.0007, 103.91),
+		label = "Cinepolis",
+		spawn = true,
+		model = `apa_mp_h_str_avunits_01`,
+		rotation = vector3(0.0, 0.0, 0),
+		invisible = false,
+		url = 'https://www.youtube.com/watch?v=q0jwDR4rbCM', 
+		title = 'Cinema',
+		volume = 30,
+		offset = 0,
+		loop = true,
+		filter = true,
+		locked = false,
+		video = true,
+		videoSize = 30,
+		muted = false,
+		attenuation = {
+			sameRoom = 5,
+			diffRoom = 6
+		},
+		range = 30,
+		scaleform = {
+			position = vector3(153.9, -988.7, 36.9),
+			rotation = vector3(0, 0, 20),
+			scale = vector3(0.6, 0.344, 0),
+			standalone = false,
+			attached = false
+		} 
 	}
 }
 

@@ -58,7 +58,7 @@ Config.defaultVideoSize = 30
 --
 -- Example:
 --
--- 	[`p_phonograph01x`] = {
+-- 	['p_phonograph01x'] = {
 -- 		label = "Phonograph",
 -- 		filter = true,
 -- 		attenuation = {sameRoom = 4, diffRoom = 6},
@@ -66,471 +66,471 @@ Config.defaultVideoSize = 30
 -- 	}
 --
 Config.models = {
-	[`p_phonograph01x`]  = {
+	['p_phonograph01x']  = {
 		label = "Phonograph"
 	},
-	[`prop_radio_01`] = {
+	['prop_radio_01'] = {
 		label = "Radio"
 	},
-	[`prop_boombox_01`] = {
+	['prop_boombox_01'] = {
 		label = "Boombox"
 	},
-	[`prop_portable_hifi_01`] = {
+	['prop_portable_hifi_01'] = {
 		label = "Boombox"
 	},
-	[`prop_tapeplayer_01`] = {
+	['prop_tapeplayer_01'] = {
 		label = "Tape Player"
 	},
-	[`bkr_prop_clubhouse_jukebox_01a`] = {
+	['bkr_prop_clubhouse_jukebox_01a'] = {
 		label = "Jukebox"
 	},
-	[`bkr_prop_clubhouse_jukebox_01b`] = {
+	['bkr_prop_clubhouse_jukebox_01b'] = {
 		label = "Jukebox"
 	},
-	[`bkr_prop_clubhouse_jukebox_02a`] = {
+	['bkr_prop_clubhouse_jukebox_02a'] = {
 		label = "Jukebox"
 	},
-	[`ch_prop_arcade_jukebox_01a`] = {
+	['ch_prop_arcade_jukebox_01a'] = {
 		label = "Jukebox"
 	},
-	[`prop_50s_jukebox`] = {
+	['prop_50s_jukebox'] = {
 		label = "Jukebox"
 	},
-	[`prop_jukebox_01`] = {
+	['prop_jukebox_01'] = {
 		label = "Jukebox"
 	},
-	[`prop_jukebox_01`] = {
+	['prop_jukebox_01'] = {
 		label = "Jukebox"
 	},
-	[`v_res_j_radio`] = {
+	['v_res_j_radio'] = {
 		label = "Radio"
 	},
-	[`v_res_fa_radioalrm`] = {
+	['v_res_fa_radioalrm'] = {
 		label = "Alarm Clock"
 	},
-	[`prop_mp3_dock`] = {
+	['prop_mp3_dock'] = {
 		label = "MP3 Dock"
 	},
-	[`v_res_mm_audio`] = {
+	['v_res_mm_audio'] = {
 		label = "MP3 Dock"
 	},
-	[`sm_prop_smug_radio_01`] = {
+	['sm_prop_smug_radio_01'] = {
 		label = "Radio"
 	},
-	[`ex_prop_ex_tv_flat_01`] = {
+	['ex_prop_ex_tv_flat_01'] = {
 		label = "TV",
 		renderTarget = "ex_tvscreen"
 	},
-	[`prop_tv_flat_01`] = {
+	['prop_tv_flat_01'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`prop_tv_flat_02`] = {
+	['prop_tv_flat_02'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`prop_tv_flat_02b`] = {
+	['prop_tv_flat_02b'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`prop_tv_flat_03`] = {
+	['prop_tv_flat_03'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`prop_tv_flat_03b`] = {
+	['prop_tv_flat_03b'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`prop_tv_flat_michael`] = {
+	['prop_tv_flat_michael'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`prop_monitor_w_large`] = {
+	['prop_monitor_w_large'] = {
 		label = "Monitor",
 		renderTarget = "tvscreen"
 	},
-	[`hei_prop_dlc_tablet`] = {
+	['hei_prop_dlc_tablet'] = {
 		label = "Tablet",
 		renderTarget = "tablet"
 	},
-	[`prop_trev_tv_01`] = {
+	['prop_trev_tv_01'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`prop_tv_02`] = {
+	['prop_tv_02'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`prop_tv_03`] = {
+	['prop_tv_03'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`prop_tv_03_overlay`] = {
+	['prop_tv_03_overlay'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`prop_laptop_lester2`] = {
+	['prop_laptop_lester2'] = {
 		label = "Laptop",
 		renderTarget = "tvscreen"
 	},
-	[`des_tvsmash_start`] = {
+	['des_tvsmash_start'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`prop_flatscreen_overlay`] = {
+	['prop_flatscreen_overlay'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`prop_monitor_02`] = {
+	['prop_monitor_02'] = {
 		label = "Monitor",
 		renderTarget = "tvscreen"
 	},
-	[`prop_big_cin_screen`] = {
+	['prop_big_cin_screen'] = {
 		label = "Cinema",
 		renderTarget = "cinscreen"
 	},
-	[`v_ilev_cin_screen`] = {
+	['v_ilev_cin_screen'] = {
 		label = "Cinema",
 		renderTarget = "cinscreen"
 	},
-	[`v_ilev_lest_bigscreen`] = {
+	['v_ilev_lest_bigscreen'] = {
 		label = "Projector",
 		renderTarget = "tvscreen"
 	},
-	[`v_ilev_mm_screen`] = {
+	['v_ilev_mm_screen'] = {
 		label = "Projector",
 		renderTarget = "big_disp"
 	},
-	[`v_ilev_mm_screen2`] = {
+	['v_ilev_mm_screen2'] = {
 		label = "Projector",
 		renderTarget = "tvscreen"
 	},
-	[`ba_prop_battle_club_computer_01`] = {
+	['ba_prop_battle_club_computer_01'] = {
 		label = "Computer",
 		renderTarget = "club_computer"
 	},
-	[`ba_prop_club_laptop_dj`] = {
+	['ba_prop_club_laptop_dj'] = {
 		label = "Laptop",
 		renderTarget = "laptop_dj"
 	},
-	[`ba_prop_club_laptop_dj_02`] = {
+	['ba_prop_club_laptop_dj_02'] = {
 		label = "Laptop",
 		renderTarget = "laptop_dj_02"
 	},
-	[`sm_prop_smug_monitor_01`] = {
+	['sm_prop_smug_monitor_01'] = {
 		label = "Computer",
 		renderTarget = "smug_monitor_01"
 	},
-	[`xm_prop_x17_tv_flat_01`] = {
+	['xm_prop_x17_tv_flat_01'] = {
 		label = "TV",
 		renderTarget = "tv_flat_01"
 	},
-	[`sm_prop_smug_tv_flat_01`] = {
+	['sm_prop_smug_tv_flat_01'] = {
 		label = "TV",
 		renderTarget = "tv_flat_01"
 	},
-	[`xm_prop_x17_computer_02`] = {
+	['xm_prop_x17_computer_02'] = {
 		label = "Monitor",
 		renderTarget = "monitor_02"
 	},
-	[`xm_prop_x17_screens_02a_01`] = {
+	['xm_prop_x17_screens_02a_01'] = {
 		label = "Screen",
 		renderTarget = "prop_x17_8scrn_01"
 	},
-	[`xm_prop_x17_screens_02a_02`] = {
+	['xm_prop_x17_screens_02a_02'] = {
 		label = "Screen",
 		renderTarget = "prop_x17_8scrn_02"
 	},
-	[`xm_prop_x17_screens_02a_03`] = {
+	['xm_prop_x17_screens_02a_03'] = {
 		label = "Screen",
 		renderTarget = "prop_x17_8scrn_03"
 	},
-	[`xm_prop_x17_screens_02a_04`] = {
+	['xm_prop_x17_screens_02a_04'] = {
 		label = "Screen",
 		renderTarget = "prop_x17_8scrn_04"
 	},
-	[`xm_prop_x17_screens_02a_05`] = {
+	['xm_prop_x17_screens_02a_05'] = {
 		label = "Screen",
 		renderTarget = "prop_x17_8scrn_05"
 	},
-	[`xm_prop_x17_screens_02a_06`] = {
+	['xm_prop_x17_screens_02a_06'] = {
 		label = "Screen",
 		renderTarget = "prop_x17_8scrn_06"
 	},
-	[`xm_prop_x17_screens_02a_07`] = {
+	['xm_prop_x17_screens_02a_07'] = {
 		label = "Screen",
 		renderTarget = "prop_x17_8scrn_07"
 	},
-	[`xm_prop_x17_screens_02a_08`] = {
+	['xm_prop_x17_screens_02a_08'] = {
 		label = "Screen",
 		renderTarget = "prop_x17_8scrn_08"
 	},
-	[`xm_prop_x17_tv_ceiling_scn_01`] = {
+	['xm_prop_x17_tv_ceiling_scn_01'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_ceil_scn_01"
 	},
-	[`xm_prop_x17_tv_ceiling_scn_02`] = {
+	['xm_prop_x17_tv_ceiling_scn_02'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_ceil_scn_02"
 	},
-	[`xm_prop_x17_tv_scrn_01`] = {
+	['xm_prop_x17_tv_scrn_01'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_01"
 	},
-	[`xm_prop_x17_tv_scrn_02`] = {
+	['xm_prop_x17_tv_scrn_02'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_02"
 	},
-	[`xm_prop_x17_tv_scrn_03`] = {
+	['xm_prop_x17_tv_scrn_03'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_03"
 	},
-	[`xm_prop_x17_tv_scrn_04`] = {
+	['xm_prop_x17_tv_scrn_04'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_04"
 	},
-	[`xm_prop_x17_tv_scrn_05`] = {
+	['xm_prop_x17_tv_scrn_05'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_05"
 	},
-	[`xm_prop_x17_tv_scrn_06`] = {
+	['xm_prop_x17_tv_scrn_06'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_06"
 	},
-	[`xm_prop_x17_tv_scrn_07`] = {
+	['xm_prop_x17_tv_scrn_07'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_07"
 	},
-	[`xm_prop_x17_tv_scrn_08`] = {
+	['xm_prop_x17_tv_scrn_08'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_08"
 	},
-	[`xm_prop_x17_tv_scrn_09`] = {
+	['xm_prop_x17_tv_scrn_09'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_09"
 	},
-	[`xm_prop_x17_tv_scrn_10`] = {
+	['xm_prop_x17_tv_scrn_10'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_10"
 	},
-	[`xm_prop_x17_tv_scrn_11`] = {
+	['xm_prop_x17_tv_scrn_11'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_11"
 	},
-	[`xm_prop_x17_tv_scrn_12`] = {
+	['xm_prop_x17_tv_scrn_12'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_12"
 	},
-	[`xm_prop_x17_tv_scrn_13`] = {
+	['xm_prop_x17_tv_scrn_13'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_13"
 	},
-	[`xm_prop_x17_tv_scrn_14`] = {
+	['xm_prop_x17_tv_scrn_14'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_14"
 	},
-	[`xm_prop_x17_tv_scrn_15`] = {
+	['xm_prop_x17_tv_scrn_15'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_15"
 	},
-	[`xm_prop_x17_tv_scrn_16`] = {
+	['xm_prop_x17_tv_scrn_16'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_16"
 	},
-	[`xm_prop_x17_tv_scrn_17`] = {
+	['xm_prop_x17_tv_scrn_17'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_17"
 	},
-	[`xm_prop_x17_tv_scrn_18`] = {
+	['xm_prop_x17_tv_scrn_18'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_18"
 	},
-	[`xm_prop_x17_tv_scrn_19`] = {
+	['xm_prop_x17_tv_scrn_19'] = {
 		label = "TV",
 		renderTarget = "prop_x17_tv_scrn_18"
 	},
-	[`xm_screen_1`] = {
+	['xm_screen_1'] = {
 		label = "Screen",
 		renderTarget = "prop_x17_tv_ceiling_01"
 	},
-	[`ex_prop_monitor_01_ex`] = {
+	['ex_prop_monitor_01_ex'] = {
 		label = "Computer",
 		renderTarget = "prop_ex_computer_screen"
 	},
-	[`gr_prop_gr_laptop_01a`] = {
+	['gr_prop_gr_laptop_01a'] = {
 		label = "Laptop",
 		renderTarget = "gr_bunker_laptop_01a"
 	},
-	[`gr_prop_gr_laptop_01b`] = {
+	['gr_prop_gr_laptop_01b'] = {
 		label = "Laptop",
 		renderTarget = "gr_bunker_laptop_sq_01a"
 	},
-	[`gr_prop_gr_trailer_monitor_01`] = {
+	['gr_prop_gr_trailer_monitor_01'] = {
 		label = "Monitor",
 		renderTarget = "gr_trailer_monitor_01"
 	},
-	[`gr_prop_gr_trailer_monitor_02`] = {
+	['gr_prop_gr_trailer_monitor_02'] = {
 		label = "Monitor",
 		renderTarget = "gr_trailer_monitor_02"
 	},
-	[`gr_prop_gr_trailer_monitor_03`] = {
+	['gr_prop_gr_trailer_monitor_03'] = {
 		label = "Monitor",
 		renderTarget = "gr_trailer_monitor_03"
 	},
-	[`gr_prop_gr_trailer_tv`] = {
+	['gr_prop_gr_trailer_tv'] = {
 		label = "TV",
 		renderTarget = "gr_trailertv_01"
 	},
-	[`gr_prop_gr_trailer_tv_02`] = {
+	['gr_prop_gr_trailer_tv_02'] = {
 		label = "TV",
 		renderTarget = "gr_trailertv_02"
 	},
-	[`hei_prop_dlc_heist_board`] = {
+	['hei_prop_dlc_heist_board'] = {
 		label = "Projector",
 		renderTarget = "heist_brd"
 	},
-	[`hei_prop_hei_monitor_overlay`] = {
+	['hei_prop_hei_monitor_overlay'] = {
 		label = "Monitor",
 		renderTarget = "hei_mon"
 	},
-	[`sr_mp_spec_races_blimp_sign`] = {
+	['sr_mp_spec_races_blimp_sign'] = {
 		label = "Blimp",
 		renderTarget = "blimp_text"
 	},
-	[`xm_prop_orbital_cannon_table`] = {
+	['xm_prop_orbital_cannon_table'] = {
 		label = "Orbital Cannon",
 		renderTarget = "orbital_table"
 	},
-	[`imp_prop_impexp_lappy_01a`] = {
+	['imp_prop_impexp_lappy_01a'] = {
 		label = "Laptop",
 		renderTarget = "prop_impexp_lappy_01a"
 	},
-	[`w_am_digiscanner`] = {
+	['w_am_digiscanner'] = {
 		label = "Digiscanner",
 		renderTarget = "digiscanner"
 	},
-	[`prop_phone_cs_frank`] = {
+	['prop_phone_cs_frank'] = {
 		label = "Phone",
 		renderTarget = "npcphone"
 	},
-	[`prop_phone_proto`] = {
+	['prop_phone_proto'] = {
 		label = "Phone",
 		renderTarget = "npcphone"
 	},
-	[`prop_huge_display_01`] = {
+	['prop_huge_display_01'] = {
 		label = "Screen",
 		renderTarget = "big_disp"
 	},
-	[`prop_huge_display_02`] = {
+	['prop_huge_display_02'] = {
 		label = "Screen",
 		renderTarget = "big_disp"
 	},
-	[`hei_prop_hei_muster_01`] = {
+	['hei_prop_hei_muster_01'] = {
 		label = "Whiteboard",
 		renderTarget = "planning"
 	},
-	[`ba_prop_battle_hacker_screen`] = {
+	['ba_prop_battle_hacker_screen'] = {
 		label = "Tablet",
 		renderTarget = "prop_battle_touchscreen_rt"
 	},
-	[`xm_prop_x17_sec_panel_01`] = {
+	['xm_prop_x17_sec_panel_01'] = {
 		label = "Panel",
 		renderTarget = "prop_x17_p_01"
 	},
-	[`bkr_prop_clubhouse_laptop_01a`] = {
+	['bkr_prop_clubhouse_laptop_01a'] = {
 		label = "Laptop",
 		renderTarget = "prop_clubhouse_laptop_01a"
 	},
-	[`bkr_prop_clubhouse_laptop_01b`] = {
+	['bkr_prop_clubhouse_laptop_01b'] = {
 		label = "Laptop",
 		renderTarget = "prop_clubhouse_laptop_square_01a"
 	},
-	[`prop_tv_flat_01_screen`] = {
+	['prop_tv_flat_01_screen'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`hei_prop_hst_laptop`] = {
+	['hei_prop_hst_laptop'] = {
 		label = "Laptop",
 		renderTarget = "tvscreen"
 	},
-	[`hei_bank_heist_laptop`] = {
+	['hei_bank_heist_laptop'] = {
 		label = "Laptop",
 		renderTarget = "tvscreen"
 	},
-	[`xm_prop_x17dlc_monitor_wall_01a`] = {
+	['xm_prop_x17dlc_monitor_wall_01a'] = {
 		label = "Screen",
 		renderTarget = "prop_x17dlc_monitor_wall_01a"
 	},
-	[`ch_prop_ch_tv_rt_01a`] = {
+	['ch_prop_ch_tv_rt_01a'] = {
 		label = "TV",
 		renderTarget = "ch_tv_rt_01a"
 	},
-	[`apa_mp_h_str_avunitl_01_b`] = {
+	['apa_mp_h_str_avunitl_01_b'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`apa_mp_h_str_avunitl_04`] = {
+	['apa_mp_h_str_avunitl_04'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`apa_mp_h_str_avunitm_01`] = {
+	['apa_mp_h_str_avunitm_01'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`apa_mp_h_str_avunitm_03`] = {
+	['apa_mp_h_str_avunitm_03'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`apa_mp_h_str_avunits_01`] = {
+	['apa_mp_h_str_avunits_01'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`apa_mp_h_str_avunits_04`] = {
+	['apa_mp_h_str_avunits_04'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`hei_heist_str_avunitl_03`] = {
+	['hei_heist_str_avunitl_03'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`xs_prop_arena_screen_tv_01`] = {
+	['xs_prop_arena_screen_tv_01'] = {
 		label = "TV",
 		renderTarget = "screen_tv_01"
 	},
-	[`xs_prop_arena_bigscreen_01`] = {
+	['xs_prop_arena_bigscreen_01'] = {
 		label = "Jumbotron",
 		renderTarget = "bigscreen_01"
 	},
-	[`vw_prop_vw_arcade_01_screen`] = {
+	['vw_prop_vw_arcade_01_screen'] = {
 		label = "Arcade Machine",
 		renderTarget = "arcade_01a_screen"
 	},
-	[`vw_prop_vw_arcade_02_screen`] = {
+	['vw_prop_vw_arcade_02_screen'] = {
 		label = "Arcade Machine",
 		renderTarget = "arcade_02a_screen"
 	},
-	[`vw_prop_vw_arcade_02b_screen`] = {
+	['vw_prop_vw_arcade_02b_screen'] = {
 		label = "Arcade Machine",
 		renderTarget = "arcade_02b_screen"
 	},
-	[`vw_prop_vw_arcade_02c_screen`] = {
+	['vw_prop_vw_arcade_02c_screen'] = {
 		label = "Arcade Machine",
 		renderTarget = "arcade_02c_screen"
 	},
-	[`vw_prop_vw_arcade_02d_screen`] = {
+	['vw_prop_vw_arcade_02d_screen'] = {
 		label = "Arcade Machine",
 		renderTarget = "arcade_02d_screen"
 	},
-	[`vw_prop_vw_cinema_tv_01`] = {
+	['vw_prop_vw_cinema_tv_01'] = {
 		label = "TV",
 		renderTarget = "tvscreen"
 	},
-	[`pbus2`] = {
+	['pbus2'] = {
 		attenuation = {sameRoom = 1.5, diffRoom = 6},
 		range = 100,
 		isVehicle = false
 	},
-	[`blimp3`] = {
+	['blimp3'] = {
 		attenuation = {sameRoom = 0.6, diffRoom = 6},
 		range = 150,
 		isVehicle = false
@@ -538,7 +538,7 @@ Config.models = {
 }
 
 -- The default model to use for default media players if none is specified.
-Config.defaultModel = Config.isRDR and `p_phonograph01x` or `prop_boombox_01`
+Config.defaultModel = Config.isRDR and 'p_phonograph01x' or 'prop_boombox_01'
 
 -- Pre-defined music URLs.
 --
@@ -669,7 +669,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(2071.527, -850.825, 43.399),
 		label = "Example Media Player",
 		spawn = true,
-		model = `p_phonograph01x`,
+		model = 'p_phonograph01x',
 		rotation = vector3(0.0, 0.0, -76.858),
 		invisible = false,
 		url = 'https://example.com/example.ogg',
@@ -700,7 +700,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(-405.281, 6069.832, 32.668),
 		label = "Mcdonalds Reclame TV",
 		spawn = false,
-		model = `prop_tv_flat_01`,
+		model = 'prop_tv_flat_01',
 		rotation = vector3(0.0, 0.0, 90.0),
 		invisible = false,
 		url = 'https://www.youtube.com/watch?v=Hppei5VZ0Z8',
@@ -710,7 +710,7 @@ Config.defaultMediaPlayers = {
 		loop = true,
 		filter = true,
 		locked = false,
-		video = false,
+		video = true,
 		videoSize = 30,
 		muted = false,
 		attenuation = {
@@ -730,7 +730,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(-409.916, 6071.173, 31.710),
 		label = "Mcdonalds Boxen",
 		spawn = false,
-		model = `prop_radio_01`,
+		model = 'prop_radio_01',
 		rotation = vector3(0.0, 0.0, 90.0),
 		invisible = false,
 		url = 'https://23563.live.streamtheworld.com/MNM_128.mp3',
@@ -747,18 +747,18 @@ Config.defaultMediaPlayers = {
 			sameRoom = 4,
 			diffRoom = 6
 		},
-		range = 30,
+		range = 30
 	},
 	{
 		position = vector3(1694.285, 3780.450, 34.965),
 		label = "City Hall Sandy",
-		spawn = true,
-		model = `ex_prop_ex_tv_flat_01`,
+		spawn = false,
+		model = 'ex_prop_ex_tv_flat_01',
 		rotation = vector3(0.0, 0.0, 124.15),
 		invisible = false,
 		url = 'https://www.youtube.com/watch?v=K7h71DylQYU',
 		title = 'Havenstad',
-		volume = 10,
+		volume = 20,
 		offset = 0,
 		loop = true,
 		filter = true,
@@ -771,12 +771,19 @@ Config.defaultMediaPlayers = {
 			diffRoom = 6
 		},
 		range = 30,
+		scaleform = {
+			position = vector3(1694.856, 3779.793, 36.153),
+			rotation = vector3(0, 0, 0.0),
+			scale = vector3(0.095, 0.061, 0),
+			standalone = true,
+			attached = false
+		}
 	},
 	{
 		position = vector3(-93.8486, 6419.397, 34.823),
 		label = "Tank Palito station 1",
 		spawn = false,
-		model = `prop_radio_01`,
+		model = 'prop_radio_01',
 		rotation = vector3(0.0, 0.0, 124.15),
 		invisible = false,
 		url = 'https://22323.live.streamtheworld.com/STUDIO_BRUSSEL_128.mp3',
@@ -799,7 +806,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(181.3203, 6604.742, 36.069),
 		label = "Tank Palito station 2",
 		spawn = false,
-		model = `prop_radio_01`,
+		model = 'prop_radio_01',
 		rotation = vector3(0.0, 0.0, 124.15),
 		invisible = false,
 		url = 'https://22323.live.streamtheworld.com/STUDIO_BRUSSEL_128.mp3',
@@ -822,7 +829,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(1701.978, 6415.093, 35.995),
 		label = "Tank Palito station 3",
 		spawn = false,
-		model = `prop_radio_01`,
+		model = 'prop_radio_01',
 		rotation = vector3(0.0, 0.0, 124.15),
 		invisible = false,
 		url = 'https://22323.live.streamtheworld.com/STUDIO_BRUSSEL_128.mp3',
@@ -845,7 +852,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(1689.535, 4928.149, 44.373),
 		label = "Tank Sandy Station 1",
 		spawn = false,
-		model = `prop_radio_01`,
+		model = 'prop_radio_01',
 		rotation = vector3(0.0, 0.0, 124.15),
 		invisible = false,
 		url = 'https://21303.live.streamtheworld.com/RADIO1_128.mp3',
@@ -868,7 +875,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(1987.452, 3051.049, 47.215),
 		label = "Tank Sandy Station 2",
 		spawn = false,
-		model = `prop_radio_01`,
+		model = 'prop_radio_01',
 		rotation = vector3(0.0, 0.0, 124.15),
 		invisible = false,
 		url = 'https://www.youtube.com/watch?v=htCcgpisgtk',
@@ -891,7 +898,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(1201.788, 2644.437, 37.709),
 		label = "Tank Sandy Station 3",
 		spawn = true,
-		model = `prop_portable_hifi_01`,
+		model = 'prop_portable_hifi_01',
 		rotation = vector3(0.0, 0.0, 180.0),
 		invisible = false,
 		url = 'https://www.youtube.com/watch?v=-7znOmUUPvk',
@@ -914,7 +921,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(1040.342, 2671.321, 41.755),
 		label = "Tank Sandy Station 4",
 		spawn = false,
-		model = `prop_portable_hifi_01`,
+		model = 'prop_portable_hifi_01',
 		rotation = vector3(0.0, 0.0, 180.0),
 		invisible = false,
 		url = 'https://22323.live.streamtheworld.com/STUDIO_BRUSSEL_128.mp3',
@@ -937,7 +944,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(-2555.10, 2333.397, 36.858),
 		label = "Tank Sandy Station 5",
 		spawn = false,
-		model = `prop_portable_hifi_01`,
+		model = 'prop_portable_hifi_01',
 		rotation = vector3(0.0, 0.0, 180.0),
 		invisible = false,
 		url = 'https://22323.live.streamtheworld.com/STUDIO_BRUSSEL_128.mp3',
@@ -960,7 +967,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(-2538.46, 2308.974, 34.280),
 		label = "Tank Sandy Station 6",
 		spawn = true,
-		model = `prop_portable_hifi_01`,
+		model = 'prop_portable_hifi_01',
 		rotation = vector3(0.0, 0.0, 230.0),
 		invisible = false,
 		url = 'https://22323.live.streamtheworld.com/STUDIO_BRUSSEL_128.mp3',
@@ -983,7 +990,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(-2096.15, -321.405, 16.503),
 		label = "Tank City Station 1",
 		spawn = false,
-		model = `prop_portable_hifi_01`,
+		model = 'prop_portable_hifi_01',
 		rotation = vector3(0.0, 0.0, 180.0),
 		invisible = false,
 		url = 'https://23563.live.streamtheworld.com/MNM_128.mp3',
@@ -1003,10 +1010,148 @@ Config.defaultMediaPlayers = {
 		range = 20,
 	},
 	{
+		position = vector3(-1436.22, -275.791, 50.932),
+		label = "Tank City Station 2",
+		spawn = false,
+		model = 'prop_portable_hifi_01',
+		rotation = vector3(0.0, 0.0, 180.0),
+		invisible = false,
+		url = 'https://23563.live.streamtheworld.com/MNM_128.mp3',
+		title = 'MNM',
+		volume = 10,
+		offset = 0,
+		loop = true,
+		filter = true,
+		locked = false,
+		video = false,
+		videoSize = 30,
+		muted = false,
+		attenuation = {
+			sameRoom = 6,
+			diffRoom = 4
+		},
+		range = 30,
+	},
+	{
+		position = vector3(-320.004, -1471.67, 33.572),
+		label = "Tank City Station 3",
+		spawn = false,
+		model = 'prop_portable_hifi_01',
+		rotation = vector3(0.0, 0.0, 180.0),
+		invisible = false,
+		url = 'https://23563.live.streamtheworld.com/MNM_128.mp3',
+		title = 'MNM',
+		volume = 5,
+		offset = 0,
+		loop = true,
+		filter = true,
+		locked = false,
+		video = false,
+		videoSize = 30,
+		muted = false,
+		attenuation = {
+			sameRoom = 4,
+			diffRoom = 4
+		},
+		range = 15,
+	},
+	{
+		position = vector3(-69.8450, -1762.67, 34.005),
+		label = "Tank City Station 4",
+		spawn = false,
+		model = 'prop_portable_hifi_01',
+		rotation = vector3(0.0, 0.0, 180.0),
+		invisible = false,
+		url = 'http://20863.live.streamtheworld.com/QMUSIC.mp3',
+		title = 'Qmusic',
+		volume = 5,
+		offset = 0,
+		loop = true,
+		filter = true,
+		locked = false,
+		video = false,
+		videoSize = 30,
+		muted = false,
+		attenuation = {
+			sameRoom = 4,
+			diffRoom = 2
+		},
+		range = 25,
+	},
+	{
+		position = vector3(265.2435, -1258.54, 33.615),
+		label = "Tank City Station 5",
+		spawn = false,
+		model = 'prop_portable_hifi_01',
+		rotation = vector3(0.0, 0.0, 180.0),
+		invisible = false,
+		url = 'http://20863.live.streamtheworld.com/QMUSIC.mp3',
+		title = 'Qmusic',
+		volume = 5,
+		offset = 0,
+		loop = true,
+		filter = true,
+		locked = false,
+		video = false,
+		videoSize = 30,
+		muted = false,
+		attenuation = {
+			sameRoom = 4,
+			diffRoom = 2
+		},
+		range = 25,
+	},
+	{
+		position = vector3(-524.985, -1211.79, 21.649),
+		label = "Tank City Station 5",
+		spawn = false,
+		model = 'prop_portable_hifi_01',
+		rotation = vector3(0.0, 0.0, 180.0),
+		invisible = false,
+		url = 'https://25433.live.streamtheworld.com/TOP_RADIO.mp3',
+		title = 'Top Radio',
+		volume = 5,
+		offset = 0,
+		loop = true,
+		filter = true,
+		locked = false,
+		video = false,
+		videoSize = 30,
+		muted = false,
+		attenuation = {
+			sameRoom = 6,
+			diffRoom = 4
+		},
+		range = 30,
+	},
+	{
+		position = vector3(621.1433, 268.7561, 106.30),
+		label = "Tank City Station 6",
+		spawn = false,
+		model = 'prop_portable_hifi_01',
+		rotation = vector3(0.0, 0.0, 180.0),
+		invisible = false,
+		url = 'http://20863.live.streamtheworld.com/QMUSIC.mp3',
+		title = 'Qmusic',
+		volume = 10,
+		offset = 0,
+		loop = true,
+		filter = true,
+		locked = false,
+		video = false,
+		videoSize = 30,
+		muted = false,
+		attenuation = {
+			sameRoom = 4,
+			diffRoom = 2
+		},
+		range = 25,
+	},
+	{
 		position = vector3(1446.932, 6354.215, 23.554),
 		label = "Daklozen Palito",
 		spawn = true,
-		model = `prop_radio_01`,
+		model = 'prop_radio_01',
 		rotation = vector3(0.0, -10.0, 124.15),
 		invisible = false,
 		url = 'https://www.youtube.com/watch?v=htCcgpisgtk',
@@ -1029,7 +1174,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(1416.27, 1165.69, 114.42),
 		label = "MP3 Mafia outside",
 		spawn = true,
-		model = `prop_mp3_dock`,
+		model = 'prop_mp3_dock',
 		rotation = vector3(0.0, 0.0, 345.36),
 		invisible = false,
 		url = 'https://www.youtube.com/watch?v=HWqKPWO5T4o',
@@ -1052,7 +1197,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(214.55, -807.654, 31.23),
 		label = "Blokkenpark",
 		spawn = true,
-		model = `prop_boombox_01`,
+		model = 'prop_boombox_01',
 		rotation = vector3(0.0, 0.0, 314.36),
 		invisible = false,
 		url = 'https://23563.live.streamtheworld.com/MNM_128.mp3', --'https://21253.live.streamtheworld.com/MNM_128.mp3',
@@ -1075,7 +1220,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(189.0792, -901.418, 30.397),
 		label = "Blokkenpark Skatepark",
 		spawn = true,
-		model = `prop_boombox_01`,
+		model = 'prop_boombox_01',
 		rotation = vector3(0.0, 0.0, 300),
 		invisible = false,
 		url = 'https://www.youtube.com/watch?v=26nsBfLXwSQ', --'https://21253.live.streamtheworld.com/MNM_128.mp3',
@@ -1098,7 +1243,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(1741.862, 6410.993, 34.025),
 		label = "Kjell",
 		spawn = true,
-		model = `sm_prop_smug_radio_01`,
+		model = 'sm_prop_smug_radio_01',
 		rotation = vector3(0.0, 0.0, 50),
 		invisible = false,
 		url = 'https://youtu.be/JY242zsvjgM', --'https://21253.live.streamtheworld.com/MNM_128.mp3',
@@ -1121,7 +1266,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(-376.212, 6053.891, 31.94),
 		label = "Fitness City",
 		spawn = true,
-		model = `prop_boombox_01`,
+		model = 'prop_boombox_01',
 		rotation = vector3(0.0, 0.0, 330),
 		invisible = false,
 		url = 'https://www.youtube.com/watch?v=sKmzb4ICz5A', --'https://21253.live.streamtheworld.com/MNM_128.mp3',
@@ -1144,7 +1289,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(179, -939.441, 29.404),
 		label = "Blokkenpark Yoga",
 		spawn = false,
-		model = `prop_boombox_01`,
+		model = 'prop_boombox_01',
 		rotation = vector3(0.0, 0.0, 250),
 		invisible = false,
 		url = 'https://www.youtube.com/watch?v=S7JcGThpR4E', 
@@ -1167,7 +1312,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(311.429, -593.200, 43.171),
 		label = "Pillbox Hospital",
 		spawn = true,
-		model = `prop_radio_01`,
+		model = 'prop_radio_01',
 		rotation = vector3(0.0, 0.0, 0),
 		invisible = false,
 		url = 'https://23563.live.streamtheworld.com/MNM_128.mp3', 
@@ -1190,7 +1335,7 @@ Config.defaultMediaPlayers = {
 		position = vector3(308.9292, 161.0007, 103.91),
 		label = "Cinepolis",
 		spawn = true,
-		model = `apa_mp_h_str_avunits_01`,
+		model = 'apa_mp_h_str_avunits_01',
 		rotation = vector3(0.0, 0.0, 0),
 		invisible = false,
 		url = 'https://www.youtube.com/watch?v=q0jwDR4rbCM', 

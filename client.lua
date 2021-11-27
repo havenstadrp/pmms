@@ -759,7 +759,7 @@ local function sendMediaMessage(handle, coords, data)
 				local ped, listenPos, viewerPos, viewerFov = getListenerAndViewerInfo()
 
 				if #(viewerPos - mediaPos) < (data.range or Config.maxRange) then
-					duiBrowser = DuiBrowser:new(handle, model, renderTarget, scaleform)
+					duiBrowser = DuiBrowser:new(handle, model, renderTarget, scaleform, data.options.url)
 				end
 			end
 		end
@@ -854,14 +854,16 @@ RegisterNUICallback("startup", function(data, cb)
 		defaultScaleformName = Config.defaultScaleformName,
 		defaultVideoSize = Config.defaultVideoSize,
 		audioVisualizations = Config.audioVisualizations,
-		tooltipsEnabled = tooltipsEnabled
+		tooltipsEnabled = tooltipsEnabled,
+		currentServerEndpoint = GetCurrentServerEndpoint()
 	}
 end)
 
 RegisterNUICallback("duiStartup", function(data, cb)
 	cb {
 		isRDR = Config.isRDR,
-		audioVisualizations = Config.audioVisualizations
+		audioVisualizations = Config.audioVisualizations,
+		currentServerEndpoint = GetCurrentServerEndpoint()
 	}
 end)
 

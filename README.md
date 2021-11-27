@@ -32,9 +32,15 @@ pmms (Poodle's MultiMedia System) allows players to play music/video from entiti
 |[![FiveM basic audio](https://i.imgur.com/CofS0VPm.jpg)](https://imgur.com/CofS0VP)|[![FiveM DUI example](https://i.imgur.com/ndZwPvDm.jpg)](https://imgur.com/ndZwPvD)|[![DUI render target proximity](https://i.imgur.com/m2KddI6m.jpg)](https://imgur.com/m2KddI6)|
 |[![Audio Visualizations](https://i.imgur.com/4E42m4tm.jpg)](https://imgur.com/4E42m4t)|[![Vehicle modes](https://i.imgur.com/gkx5oRym.jpg)](https://imgur.com/gkx5oRy)|[![Scaleform adjustment](https://i.imgur.com/AcAiGzzm.jpg)](https://imgur.com/AcAiGzz)|
 
+# Dependencies
+
+- [httpmanager](https://github.com/kibook/httpmanager)
+
 # Installing
 
-1. Place the files from this repository in a new folder in your resources directory.
+1. Install all [dependencies](#dependencies).
+
+2. Place the files from this repository in a new folder in your resources directory.
 
    Example: `resources/[local]/pmms`
    
@@ -42,13 +48,31 @@ pmms (Poodle's MultiMedia System) allows players to play music/video from entiti
    > 
    > The name of the resource **must** be in all lowercase in order for it to function properly. This is due to how [NUI callbacks](https://docs.fivem.net/docs/scripting-manual/nui-development/nui-callbacks/) work.
 
-2. Add the following in server.cfg:
+3. Add the following in server.cfg:
    ```
    exec resources/[local]/pmms/permissions.cfg
    start pmms
    ```
    
    Adjust as necessary based on where you installed the resource and what you named it.
+
+# Permissions
+
+The default permissions allow members of `group.admin` full access to pmms, while other players will only be able to perform basic interactions with media players and only be able to play preset songs (those defined in `Config.presets` in [config.lua](config.lua)).
+
+To allow all players to be able to play custom URLs, in [permissions.cfg](permissions.cfg), uncomment or add the following line:
+
+```
+add_ace builtin.everyone pmms.customUrl allow
+```
+
+Even with this ace, URLs will be restricted to those allowed by `Config.allowedUrls`, which includes generally safe sites such as YouTube. To allow players to use URLs from other sites, you can either add the appropriate pattern to `Config.allowedUrls`, or uncomment or add the following line to remove the restriction entirely:
+
+```
+add_ace builtin.everyone pmms.anyUrl allow
+```
+
+Keep in mind that media played with pmms is loaded individually by all players, meaning each player will be accessing the URL from their own connection. Therefore, allowing any player to play a random URL can present some risk of exposing players' IP addresses to an attacker playing something from their own web server and logging the connections.
 
 # Commands
 

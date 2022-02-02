@@ -99,10 +99,7 @@ Config.models = {
 	['prop_jukebox_01'] = {
 		label = "Jukebox"
 	},
-	['prop_jukebox_01'] = {
-		label = "Jukebox"
-	},
-	['v_res_j_radio'] = {
+	[`v_res_j_radio`] = {
 		label = "Radio"
 	},
 	['v_res_fa_radioalrm'] = {
